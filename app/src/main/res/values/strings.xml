@@ -1,0 +1,734 @@
+<resources>
+    <string name="app_name">stt_test</string>
+
+
+    <string-array name="lucia_select">
+        <item>カルルン</item> <!-- 대기 -->
+        <item>カルルン</item> <!-- 무엇 -->
+        <item>カルルン</item> <!-- 에러 -->
+        <item>カルルン</item> <!-- 넷에러 -->
+        <item>자기소개</item>
+        <item>대기모드</item>
+        <item>아냐</item>
+        <item>시간</item>
+        <item>날짜</item>
+        <item>알람 취소</item><!--알람 취소 -->
+        <item>알람</item><!--알람 세팅 성공 -->
+        <item>カルルン</item><!--알람 에러 -->
+        <item>カルルン</item><!--알람 울림 -->
+        <item>カルルン</item><!--알람 없음 -->
+        <item>타이머 취소</item><!--타이머 취소 -->
+        <item>타이머</item><!--타이머 세팅 성공 -->
+        <item>カルルン</item><!--타이머 에러 -->
+        <item>カルルン</item><!--타이머 울림 -->
+        <item>カルルン</item><!--타이머 없음 -->
+        <item>내일 날씨</item>
+        <item>날씨</item><!-- 이거 정말 중요함! 날씨 앞에 내일날씨 넣어야 for 문 두번 거쳐서 에러 안나게함 -->
+        <item>カルルン</item> <!--성공 -->
+        <item>침실 켜</item>
+        <item>침실 꺼</item>
+        <item>화장실 켜</item>
+        <item>화장실 꺼</item>
+        <item>컴퓨터 켜</item>
+        <item>컴퓨터 꺼</item>
+        <item>주방 켜</item>
+        <item>주방 꺼</item>
+        <item>거실 켜</item>
+        <item>거실 꺼</item>
+        <item>문 열어</item>
+        <item>거실 커튼 열어</item>
+        <item>거실 커튼 닫아</item>
+        <item>침실 커튼 열어</item>
+        <item>침실 커튼 닫아</item>
+        <item>티비 켜</item>
+        <item>티비 꺼</item>
+        <item>보일러 켜</item>
+        <item>보일러 꺼</item>
+        <item>리클라이너 올려</item>
+        <item>리클라이너 내려</item>
+        <item>엘리베이터 호출</item>
+
+        <item>전자레인지 켜</item>
+        <item>전자레인지 꺼</item>
+        <item>오븐 켜</item>
+        <item>오븐 꺼</item>
+        <item>시동 켜</item>
+
+
+        <item>시청 모드 시작</item>
+        <item>시청 모드 종료</item>
+        <item>요리 모드 시작</item>
+        <item>요리 모드 종료</item>
+        <item>샤워 모드 시작</item>
+        <item>샤워 모드 종료</item>
+
+        <item>코딩</item>
+        <item>잘게</item>
+    </string-array>
+
+    <string-array name="lucia_select2">
+        <item>カルルン</item> <!-- 대기 -->
+        <item>カルルン</item> <!-- 무엇 -->
+        <item>カルルン</item> <!-- 에러 -->
+        <item>カルルン</item> <!-- 넷에러 -->
+        <item>자기소개</item>
+        <item>쉬어</item>
+        <item>아니야</item>
+        <item>몇시</item>
+        <item>몇일</item>
+        <item>알람 취소</item><!--알람 취소 -->
+        <item>깨워</item><!--알람 세팅 성공 -->
+        <item>カルルン</item><!--알람 에러 -->
+        <item>カルルン</item><!--알람 울림 -->
+        <item>カルルン</item><!--알람 없음 -->
+        <item>타이머 취소</item><!--타이머 취소 -->
+        <item>알려줘</item><!--타이머 세팅 성공 -->
+        <item>カルルン</item><!--타이머 에러 -->
+        <item>カルルン</item><!--타이머 울림 -->
+        <item>カルルン</item><!--타이머 없음 -->
+        <item>내일 날씨</item>
+        <item>날씨</item><!-- 이거 정말 중요함! 날씨 앞에 내일날씨 넣어야 for 문 두번 거쳐서 에러 안나게함 -->
+        <item>カルルン</item> <!--성공 -->
+        <item>침실 켜</item>
+        <item>침실 꺼</item>
+        <item>화장실 켜</item>
+        <item>화장실 꺼</item>
+        <item>컴퓨터 켜</item>
+        <item>컴퓨터 꺼</item>
+        <item>주방 켜</item>
+        <item>주방 꺼</item>
+        <item>거실 켜</item>
+        <item>거실 꺼</item>
+        <item>문 열어</item>
+        <item>거실 커튼 열어</item>
+        <item>거실 커튼 닫아</item>
+        <item>침실 커튼 열어</item>
+        <item>침실 커튼 닫아</item>
+        <item>티비 켜</item>
+        <item>티비 꺼</item>
+        <item>보일러 켜</item>
+        <item>보일러 꺼</item>
+        <item>리클라이너 올려</item>
+        <item>리클라이너 내려</item>
+        <item>엘리베이터 호출</item>
+        <item>전자레인지 켜</item>
+        <item>전자레인지 꺼</item>
+        <item>오븐 켜</item>
+        <item>오븐 꺼</item>
+        <item>시동 켜</item>
+        <item>영화 모드 시작</item>
+        <item>영화 모드 종료</item>
+        <item>요리 모드 시작</item>
+        <item>요리 모드 종료</item>
+        <item>씻을게</item>
+        <item>다씻었어</item>
+        <item>게임</item>
+        <item>잘자</item>
+    </string-array>
+
+
+    <array name="lucia_select_video">
+        <item>@raw/idle</item>
+        <item>@raw/what</item>
+        <item>@raw/error</item>
+        <item>@raw/net_error</item>
+        <item>@raw/introduce</item>
+        <item>@raw/standby_mode</item>
+        <item>@raw/miss</item>
+        <item>@raw/now_time</item>
+        <item>@raw/now_date</item>
+        <item>@raw/timer_cancle</item><!--알람 취소는 타이머랑 영상 동시에 써도 된다. 혹시 모르니 영상은 폴더에 남겨놓겠어 -->
+        <item>@raw/alarm_success</item> <!-- 알람 성공 영상은 있음 -->
+        <item>@raw/alarm_error</item><!--알람 에러 -->
+        <item>@raw/alarm_alart</item><!--알람 울림 -->
+        <item>@raw/timer_empty</item><!--알람 없음은 타이머랑 영상 동시에 써도 된다-->
+        <item>@raw/timer_cancle</item><!--타이머 취소 -->
+        <item>@raw/alarm_success</item> <!-- 타이머 성공 -->
+        <item>@raw/timer_error</item><!--타이머 에러 -->
+        <item>@raw/timer_alart</item><!--타이머 울림 -->
+        <item>@raw/timer_empty</item><!--타이머 없음 -->
+        <item>@raw/tomorrow_weather</item>
+        <item>@raw/today_weather</item>
+        <item>@raw/success</item>
+        <item>@raw/standby_sleep</item>
+    </array>
+
+    <array name="lucia_select_voice">
+        <item>@raw/idle</item>
+        <item>@raw/what_v</item>
+        <item>@raw/error_v</item>
+        <item>@raw/net_error_v</item>
+        <item>@raw/introduce_v</item>
+        <item>@raw/standby_mode_v</item>
+        <item>@raw/miss_v</item>
+        <item>@raw/now_time</item> <!-- 현재 시간알림은 소리가 없음! -->
+        <item>@raw/now_date</item> <!-- 현재 날짜알림은 소리가 없음! -->
+        <item>@raw/alarm_cancle_v</item><!--알람 취소 -->
+        <item>@raw/alarm_success</item> <!-- 알람 세팅 성공은 소리가 없음! -->
+        <item>@raw/alarm_error_v</item><!--알람 에러 -->
+        <item>@raw/alarm_alart_v</item><!--알람 울림 -->
+        <item>@raw/alarm_empty_v</item><!--알람 없음 -->
+        <item>@raw/timer_cancle_v</item><!--타이머 취소 -->
+        <item>@raw/alarm_success</item><!--타이머 세팅 성공은 소리가 없음! -->
+        <item>@raw/timer_error_v</item><!--타이머 에러 -->
+        <item>@raw/timer_alart_v</item><!--타이머 울림 -->
+        <item>@raw/timer_empty_v</item><!--타이머 없음 -->
+        <item>カルルン</item> <!--내일 날씨 -->
+        <item>カルルン</item> <!--날씨 -->
+        <item>@raw/success_v</item>
+        <item>@raw/bedroom_on_v</item>
+        <item>@raw/bedroom_off_v</item>
+        <item>@raw/toilet_on_v</item>
+        <item>@raw/toilet_off_v</item>
+        <item>@raw/computer_on_v</item>
+        <item>@raw/computer_off_v</item>
+        <item>@raw/kitchenroom_on_v</item>
+        <item>@raw/kitchenroom_off_v</item>
+        <item>@raw/livingroom_on_v</item>
+        <item>@raw/livingroom_off_v</item>
+        <item>@raw/door_open_v</item>
+        <item>@raw/livingroom_curtain_on_v</item>
+        <item>@raw/livingroom_curtain_off_v</item>
+        <item>@raw/bedroom_curtain_open_v</item>
+        <item>@raw/bedroom_curtain_close_v</item>
+        <item>@raw/tv_on_v</item>
+        <item>@raw/tv_off_v</item>
+        <item>@raw/boiler_on_v</item>
+        <item>@raw/boiler_off_v</item>
+        <item>@raw/recliner_up_v</item>
+        <item>@raw/recliner_down_v</item>
+        <item>@raw/elevator_call_v</item>
+        <item>@raw/electricrange_on_v</item>
+        <item>@raw/electricrange_off_v</item>
+        <item>@raw/oven_on_v</item>
+        <item>@raw/oven_off_v</item>
+        <item>@raw/car_on_v</item>
+        <item>@raw/watching_mode_on_v</item>
+        <item>@raw/watching_mode_off_v</item>
+        <item>@raw/cooking_mode_on_v</item>
+        <item>@raw/cooking_mode_off_v</item>
+        <item>@raw/shower_mode_on_v</item>
+        <item>@raw/shower_mode_off_v</item>
+        <item>@raw/bedroom_play_mode_v</item>
+        <item>@raw/bedroom_sleep_mode_v</item>
+        <item>@raw/stanby_sleep_v</item>
+    </array>
+
+    <string-array name="network_address">
+        <item>カルルン</item> <!-- 대기 -->
+        <item>カルルン</item> <!-- 무엇 -->
+        <item>カルルン</item> <!-- 에러 -->
+        <item>カルルン</item> <!-- 넷에러 -->
+        <item>カルルン</item> <!-- 자기소개 -->
+        <item>カルルン</item> <!-- 대기모드 진입 -->
+        <item>カルルン</item> <!-- 아냐 -->
+        <item>カルルン</item> <!-- 시간 -->
+        <item>カルルン</item> <!-- 날짜 -->
+        <item>カルルン</item> <!-- 알람 인식 실패 -->
+        <item>カルルン</item><!--알람 세팅 성공 -->
+        <item>カルルン</item><!--알람 에러 -->
+        <item>カルルン</item><!--알람 울림 -->
+        <item>カルルン</item><!--알람 없음 -->
+        <item>カルルン</item><!--타이머 취소 -->
+        <item>カルルン</item><!--타이머 세팅 성공 -->
+        <item>カルルン</item><!--타이머 에러 -->
+        <item>カルルン</item><!--타이머 울림 -->
+        <item>カルルン</item><!--타이머 없음 -->
+        <item>カルルン</item><!--내일 날씨 -->
+        <item>カルルン</item><!--날씨 -->
+        <item>カルルン</item><!--성공 -->
+        <item>bedroom_on</item>
+        <item>bedroom_off</item>
+        <item>toilet_on</item>
+        <item>toilet_off</item>
+        <item>computer_on</item>
+        <item>computer_off</item>
+        <item>kitchenroom_on</item> <!-- 보이스 작업 필요 -->
+        <item>kitchenroom_off</item> <!-- 보이스 작업 필요 -->
+        <item>livingroom_on_off</item>
+        <item>livingroom_on_off</item>
+        <item>door_open</item> <!-- 보이스 작업 필요 -->
+        <item>livingroom_curtain_on</item> <!-- 보이스 작업 필요 -->
+        <item>livingroom_curtain_off</item> <!-- 보이스 작업 필요 -->
+        <item>bedroom_curtain_open</item> <!-- 보이스 작업 필요 -->
+        <item>bedroom_curtain_close</item> <!-- 보이스 작업 필요 -->
+        <item>tv_on</item> <!-- 보이스 작업 필요 -->
+        <item>tv_off</item> <!-- 보이스 작업 필요 -->
+        <item>boiler_on</item>
+        <item>boiler_off</item>
+        <item>recliner_up</item>
+        <item>recliner_down</item>
+        <item>elevator_call</item>
+
+        <item>electric_range_on</item>
+        <item>electric_range_off</item>
+        <item>oven_on</item>
+        <item>oven_off</item>
+        <item>car on</item>
+
+
+        <item>watching_mode_on</item>
+        <item>watching_mode_off</item>
+        <item>cooking_mode_on</item>
+        <item>cooking_mode_off</item>
+        <item>shower_mode_on</item>
+        <item>shower_mode_off</item>
+
+        <item>bedroom_playing_on</item>
+        <item>bedroom_sleep_on</item>
+    </string-array>
+
+
+    <!-- 타이머, 시간, 날짜, 알람 부분 -->
+
+    <string-array name="lucia_alarm_hour">
+        <item>0시</item>
+        <item>1시</item>
+        <item>2시</item>
+        <item>3시</item>
+        <item>4시</item>
+        <item>5시</item>
+        <item>6시</item>
+        <item>7시</item>
+        <item>8시</item>
+        <item>9시</item>
+        <item>10시</item>
+        <item>11시</item>
+        <item>12시</item>
+        <item>13시</item>
+        <item>14시</item>
+        <item>15시</item>
+        <item>16시</item>
+        <item>17시</item>
+        <item>18시</item>
+        <item>19시</item>
+        <item>20시</item>
+        <item>21시</item>
+        <item>22시</item>
+        <item>23</item>
+        <item>24시</item>
+    </string-array>
+
+    <string-array name="lucia_alarm_min">
+        <item>0분</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>3분</item>
+        <item>4분</item>
+        <item>5분</item>
+        <item>6분</item>
+        <item>7분</item>
+        <item>8분</item>
+        <item>9분</item>
+        <item>10분</item>
+        <item>11분</item>
+        <item>12분</item>
+        <item>13분</item>
+        <item>14분</item>
+        <item>15분</item>
+        <item>16분</item>
+        <item>17분</item>
+        <item>18분</item>
+        <item>19분</item>
+        <item>20분</item>
+        <item>21분</item>
+        <item>22분</item>
+        <item>23분</item>
+        <item>24분</item>
+        <item>25분</item>
+        <item>26분</item>
+        <item>27분</item>
+        <item>28분</item>
+        <item>29분</item>
+        <item>30분</item>
+        <item>31분</item>
+        <item>32분</item>
+        <item>33분</item>
+        <item>34분</item>
+        <item>35분</item>
+        <item>36분</item>
+        <item>37분</item>
+        <item>38분</item>
+        <item>39분</item>
+        <item>40분</item>
+        <item>41분</item>
+        <item>42분</item>
+        <item>43분</item>
+        <item>44분</item>
+        <item>45분</item>
+        <item>46분</item>
+        <item>47분</item>
+        <item>48분</item>
+        <item>49분</item>
+        <item>50분</item>
+        <item>51분</item>
+        <item>52분</item>
+        <item>53분</item>
+        <item>54분</item>
+        <item>55분</item>
+        <item>56분</item>
+        <item>57분</item>
+        <item>58분</item>
+        <item>59분</item>
+    </string-array>
+
+    <string-array name="lucia_alarm_sec">
+        <item>0초</item>
+        <item>1초</item>
+        <item>2초</item>
+        <item>3초</item>
+        <item>4초</item>
+        <item>5초</item>
+        <item>6초</item>
+        <item>7초</item>
+        <item>8초</item>
+        <item>9초</item>
+        <item>10초</item>
+        <item>11초</item>
+        <item>12초</item>
+        <item>13초</item>
+        <item>14초</item>
+        <item>15초</item>
+        <item>16초</item>
+        <item>17초</item>
+        <item>18초</item>
+        <item>19초</item>
+        <item>20초</item>
+        <item>21초</item>
+        <item>22초</item>
+        <item>23초</item>
+        <item>24초</item>
+        <item>25초</item>
+        <item>26초</item>
+        <item>27초</item>
+        <item>28초</item>
+        <item>29초</item>
+        <item>30초</item>
+        <item>31초</item>
+        <item>32초</item>
+        <item>33초</item>
+        <item>34초</item>
+        <item>35초</item>
+        <item>36초</item>
+        <item>37초</item>
+        <item>38초</item>
+        <item>39초</item>
+        <item>40초</item>
+        <item>41초</item>
+        <item>42초</item>
+        <item>43초</item>
+        <item>44초</item>
+        <item>45초</item>
+        <item>46초</item>
+        <item>47초</item>
+        <item>48초</item>
+        <item>49초</item>
+        <item>50초</item>
+        <item>51초</item>
+        <item>52초</item>
+        <item>53초</item>
+        <item>54초</item>
+        <item>55초</item>
+        <item>56초</item>
+        <item>57초</item>
+        <item>58초</item>
+        <item>59초</item>
+    </string-array>
+
+    <array name="lucia_select_time_min_sec">
+        <item>@raw/zero_v</item>
+        <item>@raw/il_v</item>
+        <item>@raw/i_v</item>
+        <item>@raw/sam_v</item>
+        <item>@raw/sa_v</item>
+        <item>@raw/o_v</item>
+        <item>@raw/yuk_v</item>
+        <item>@raw/chil_v</item>
+        <item>@raw/pal_v</item>
+        <item>@raw/gu_v</item>
+        <item>@raw/ship_v</item>
+        <item>@raw/hour_v</item>
+        <item>@raw/minute_v</item>
+        <item>@raw/sec_v</item>
+        <item>@raw/time_start_v</item>
+        <item>@raw/day_start_v</item>
+        <item>@raw/time_end_v</item>
+        <item>@raw/month_v</item>
+        <item>@raw/day_v</item>
+        <item>@raw/alarm_start_v</item>
+        <item>@raw/alarm_end_v</item>
+        <item>@raw/timer_end_v</item>
+
+    </array>
+
+    <array name="lucia_select_time_hour">
+        <item>@raw/zero_v</item>
+        <item>@raw/time_1_v</item>
+        <item>@raw/time_2_v</item>
+        <item>@raw/time_3_v</item>
+        <item>@raw/time_4_v</item>
+        <item>@raw/time_5_v</item>
+        <item>@raw/time_6_v</item>
+        <item>@raw/time_7_v</item>
+        <item>@raw/time_8_v</item>
+        <item>@raw/time_9_v</item>
+        <item>@raw/time_10_v</item>
+        <item>@raw/time_11_v</item>
+        <item>@raw/time_12_v</item>
+        <item>@raw/time_13_v</item>
+        <item>@raw/time_14_v</item>
+        <item>@raw/time_15_v</item>
+        <item>@raw/time_16_v</item>
+        <item>@raw/time_17_v</item>
+        <item>@raw/time_18_v</item>
+        <item>@raw/time_19_v</item>
+        <item>@raw/time_20_v</item>
+        <item>@raw/time_21_v</item>
+        <item>@raw/time_22_v</item>
+        <item>@raw/time_23_v</item>
+        <item>@raw/time_24_v</item>
+    </array>
+
+    <array name="lucia_select_time_day">
+        <item>@raw/time_end_v</item>
+        <item>@raw/sun_v</item>
+        <item>@raw/mon_v</item>
+        <item>@raw/tue_v</item>
+        <item>@raw/wed_v</item>
+        <item>@raw/thu_v</item>
+        <item>@raw/fri_v</item>
+        <item>@raw/sat_v</item>
+
+    </array>
+
+
+    <array name="png_num_0">
+        <item>@drawable/font_0</item>
+        <item>@drawable/font_1</item>
+        <item>@drawable/font_2</item>
+        <item>@drawable/font_3</item>
+        <item>@drawable/font_4</item>
+        <item>@drawable/font_5</item>
+        <item>@drawable/font_6</item>
+        <item>@drawable/font_7</item>
+        <item>@drawable/font_8</item>
+        <item>@drawable/font_9</item>
+    </array>
+
+
+    <!-- 날씨 부분 -->
+
+    <array name="lucia_select_weather_num">
+        <item>@raw/yeong_v</item>
+        <item>@raw/il_v</item>
+        <item>@raw/i_v</item>
+        <item>@raw/sam_v</item>
+        <item>@raw/sa_v</item>
+        <item>@raw/o_v</item>
+        <item>@raw/yuk_v</item>
+        <item>@raw/chil_v</item>
+        <item>@raw/pal_v</item>
+        <item>@raw/gu_v</item>
+        <item>@raw/ship_v</item>
+        <item>@raw/today_weather_v</item>
+        <item>@raw/tomorrow_weather_v</item>
+        <item>@raw/temp_hue_is_v</item>
+        <item>@raw/temp_hue_v</item>
+        <item>@raw/temp_hue_c_v</item>
+        <item>@raw/temp_hue_per_v</item>
+        <item>@raw/time_end_v</item>
+        <item>@raw/temp_hue_max_v</item>
+        <item>@raw/temp_hue_min_v</item>
+        <item>@raw/weather_thunderstorm_v</item>
+        <item>@raw/weather_drizzle_v</item>
+        <item>@raw/weather_rain_v</item>
+        <item>@raw/weather_snow_v</item>
+        <item>@raw/weather_clear_v</item>
+        <item>@raw/weather_cloud_v</item>
+        <item>@raw/weather_typhoon_v</item>
+        <item>@raw/weather_mist_v</item>
+        <item>@raw/temp_hue_minus_v</item>
+        <item>@raw/zero_v</item>
+    </array>
+
+    <array name="lucia_select_weather_imo">
+        <item>yeong_v</item>
+        <item>il_v</item>
+        <item>i_v</item>
+        <item>sam_v</item>
+        <item>sa_v</item>
+        <item>o_v</item>
+        <item>yuk_v</item>
+        <item>chil_v</item>
+        <item>pal_v</item>
+        <item>gu_v</item>
+        <item>ship_v</item>
+        <item>today_weather_v</item>
+        <item>tomorrow_weather_v</item>
+        <item>temp_hue_is_v</item>
+        <item>temp_hue_v</item>
+        <item>temp_hue_c_v</item>
+        <item>temp_hue_per_v</item>
+        <item>time_end_v</item>
+        <item>temp_hue_max_v</item>
+        <item>temp_hue_min_v</item>
+        <item>@drawable/weather_thunderstorm_imo</item>
+        <item>@drawable/weather_drizzle_imo</item>
+        <item>@drawable/weather_rain_imo</item>
+        <item>@drawable/weather_snow_imo</item>
+        <item>@drawable/weather_clear_imo</item>
+        <item>@drawable/weather_cloud_imo</item>
+        <item>weather_typhoon_imo</item>
+        <item>@drawable/weather_mist_imo</item>
+    </array>
+
+    <string-array name="lucia_select_weather_string">
+        <item>@raw/yeong_v</item>
+        <item>il_v</item>
+        <item>i_v</item>
+        <item>sam_v</item>
+        <item>sa_v</item>
+        <item>o_v</item>
+        <item>yuk_v</item>
+        <item>chil_v</item>
+        <item>pal_v</item>
+        <item>gu_v</item>
+        <item>ship_v</item>
+        <item>today_weather_v</item>
+        <item>tomorrow_weather_v</item>
+        <item>temp_hue_is_v</item>
+        <item>temp_hue_v</item>
+        <item>tem_hue_c_v</item>
+        <item>tem_hue_per_v</item>
+        <item>alarm_end_v</item>
+        <item>temp_hue_max_v</item>
+        <item>temp_hue_min_v</item>
+        <item>Thunderstorm</item>  <!-- -20  넣으면 0됨-->
+        <item>Drizzle</item>
+        <item>Rain</item>
+        <item>Snow</item>
+        <item>Clear</item>
+        <item>Clouds</item>
+        <item>Tornado</item>
+        <item>Mist</item>
+        <item>Smoke</item>
+        <item>Haze</item>
+        <item>Dust</item>
+        <item>Fog</item>
+        <item>Sand</item>
+        <item>Dust</item>
+        <item>Ash</item>
+        <item>Squall</item>
+        <item>영하</item>
+        <item>@raw/zero_v</item>
+    </string-array>
+
+
+    <array name="png_num_temp">
+        <item>@drawable/font_0_r</item>
+        <item>@drawable/font_1_r</item>
+        <item>@drawable/font_2_r</item>
+        <item>@drawable/font_3_r</item>
+        <item>@drawable/font_4_r</item>
+        <item>@drawable/font_5_r</item>
+        <item>@drawable/font_6_r</item>
+        <item>@drawable/font_7_r</item>
+        <item>@drawable/font_8_r</item>
+        <item>@drawable/font_9_r</item>
+    </array>
+
+    <array name="png_num_humi">
+        <item>@drawable/font_0_b</item>
+        <item>@drawable/font_1_b</item>
+        <item>@drawable/font_2_b</item>
+        <item>@drawable/font_3_b</item>
+        <item>@drawable/font_4_b</item>
+        <item>@drawable/font_5_b</item>
+        <item>@drawable/font_6_b</item>
+        <item>@drawable/font_7_b</item>
+        <item>@drawable/font_8_b</item>
+        <item>@drawable/font_9_b</item>
+    </array>
+
+
+    <string-array name="lucia_illumination_lv">
+        <item>lightlv0</item>
+        <item>lightlv1</item>
+        <item>lightlv2</item>
+        <item>lightlv3</item>
+        <item>lightlv4</item>
+        <item>lightlv5</item>
+        <item>lightlv6</item>
+        <item>lightlv7</item>
+        <item>lightlv8</item>
+        <item>lightlv9</item>
+        <item>lightlv10</item>
+    </string-array> <!--블루투스 라이트 관련 배열 -->
+
+    <string-array name="lucia_select_weather_background_string">
+        <item>Thunderstorm</item>  <!-- -20  넣으면 0됨-->
+        <item>カルルン</item>  <!-- -20  넣으면 0됨-->
+        <item>カルルン</item>  <!-- -20  넣으면 0됨-->
+        <item>カルルン</item>  <!-- -20  넣으면 0됨-->
+        <item>Drizzle</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>Rain</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>Snow</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>Clear</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>Clouds</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>Tornado</item> <!-- 24번은 썬더스톰으로 처리 하도록. -->
+        <item>Mist</item> <!-- 25번 부터 -->
+        <item>Smoke</item>
+        <item>Haze</item>
+        <item>Dust</item>
+        <item>Fog</item>
+        <item>Sand</item>
+        <item>Dust</item>
+        <item>Ash</item>
+        <item>Squall</item> <!-- 33번 까진 흐림으로 처리하도록. -->
+    </string-array>
+
+    <array name="lucia_select_weather_background_video">
+        <item>@raw/thunderstorm_morning</item>
+        <item>@raw/thunderstorm_dinner</item>
+        <item>@raw/thunderstorm_night</item>
+        <item>@raw/thunderstorm_dawn</item>
+        <item>@raw/rainy_morning</item>
+        <item>@raw/rainy_dinner</item>
+        <item>@raw/rainy_night</item>
+        <item>@raw/rainy_dawn</item>
+        <item>@raw/rainy_morning</item>
+        <item>@raw/rainy_dinner</item>
+        <item>@raw/rainy_night</item>
+        <item>@raw/rainy_dawn</item>
+        <item>@raw/snowy_morning</item>
+        <item>@raw/snowy_dinner</item>
+        <item>@raw/snowy_night</item>
+        <item>@raw/snowy_dawn</item>
+        <item>@raw/clear_morning</item>
+        <item>@raw/clear_dinner</item>
+        <item>@raw/clear_night</item>
+        <item>@raw/clear_dawn</item>
+        <item>@raw/cloudy_morning</item>
+        <item>@raw/cloudy_dinner</item>
+        <item>@raw/cloudy_night</item>
+        <item>@raw/cloudy_dawn</item>
+    </array>
+
+
+
+</resources>

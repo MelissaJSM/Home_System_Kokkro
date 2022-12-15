@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">stt_test</string>
+
+
+    <string-array name="lucia_select">
+        <item>カルルン</item> <!-- 대기 -->
+        <item>カルルン</item> <!-- 넷 에러 -->
+        <item>カルルン</item> <!-- can i help you? -->
+        <item>カルルン</item> <!-- 엘리베이터 호출 질문? -->
+        <item>호출</item> <!-- 엘리베이터 호출 -->
+        <item>カルルン</item> <!-- 성공적으로 모드 동작 함 -->
+        <item>샤워</item>
+        <item>요리</item>
+        <item>티비</item>
+        <item>컴퓨터</item>
+    </string-array>
+
+    <string-array name="lucia_select2">
+        <item>カルルン</item> <!-- 대기 -->
+        <item>カルルン</item> <!-- 넷 에러 -->
+        <item>カルルン</item> <!-- can i help you? -->
+        <item>カルルン</item> <!-- 엘리베이터 호출 질문? -->
+        <item>불러 줘</item> <!-- 엘리베이터 호출 -->
+        <item>カルルン</item>  <!-- 성공적으로 모드 동작 함 -->
+        <item>씻을게</item>
+        <item>밥할게</item>
+        <item>영화</item>
+        <item>코딩</item>
+    </string-array>
+
+
+    <array name="lucia_select_video">
+        <item>@raw/idle</item>
+        <item>@raw/net_error</item>
+        <item>@raw/front_help</item>
+        <item>@raw/elevator_request</item>
+        <item>@raw/elevator_call</item>
+        <item>@raw/front_success</item>
+    </array>
+
+    <array name="lucia_select_voice">
+        <item>@raw/idle</item>
+        <item>@raw/net_error_v</item>
+        <item>@raw/front_help_v</item>
+        <item>@raw/front_elevator_request_v</item>
+        <item>@raw/elevator_call_v</item>
+        <item>@raw/front_success</item> <!-- 모드 동작 성공용 보이스(가 있을리없음) -->
+        <item>@raw/front_shower_mode_v</item>
+        <item>@raw/front_cooking_mode_v</item>
+        <item>@raw/front_tv_mode_v</item>
+        <item>@raw/front_computer_mode_v</item>
+
+
+    </array>
+
+    <string-array name="network_address">
+            <item>カルルン</item> <!-- 대기 -->
+            <item>カルルン</item> <!-- 넷 에러 -->
+            <item>カルルン</item> <!-- can i help you? -->
+            <item>カルルン</item> <!-- 엘리베이터 호출 질문? -->
+            <item>elevator_call</item> <!-- 엘리베이터 호출 -->
+            <item>カルルン</item> <!-- 성공적으로 모드 동작 함 -->
+            <item>shower_mode_on</item>
+            <item>cooking_mode_on</item>
+            <item>watching_mode_on</item>
+            <item>bedroom_playing_on</item>
+    </string-array>
+
+
+
+
+
+    <array name="png_num_0">
+        <item>@drawable/font_0</item>
+        <item>@drawable/font_1</item>
+        <item>@drawable/font_2</item>
+        <item>@drawable/font_3</item>
+        <item>@drawable/font_4</item>
+        <item>@drawable/font_5</item>
+        <item>@drawable/font_6</item>
+        <item>@drawable/font_7</item>
+        <item>@drawable/font_8</item>
+        <item>@drawable/font_9</item>
+    </array>
+
+
+    <!-- 날씨 부분 -->
+
+    <array name="lucia_select_weather_imo">
+        <item>yeong_v</item>
+        <item>il_v</item>
+        <item>i_v</item>
+        <item>sam_v</item>
+        <item>sa_v</item>
+        <item>o_v</item>
+        <item>yuk_v</item>
+        <item>chil_v</item>
+        <item>pal_v</item>
+        <item>gu_v</item>
+        <item>ship_v</item>
+        <item>today_weather_v</item>
+        <item>tomorrow_weather_v</item>
+        <item>temp_hue_is_v</item>
+        <item>temp_hue_v</item>
+        <item>temp_hue_c_v</item>
+        <item>temp_hue_per_v</item>
+        <item>time_end_v</item>
+        <item>temp_hue_max_v</item>
+        <item>temp_hue_min_v</item>
+        <item>@drawable/weather_thunderstorm_imo</item>
+        <item>@drawable/weather_drizzle_imo</item>
+        <item>@drawable/weather_rain_imo</item>
+        <item>@drawable/weather_snow_imo</item>
+        <item>@drawable/weather_clear_imo</item>
+        <item>@drawable/weather_cloud_imo</item>
+        <item>weather_typhoon_imo</item>
+        <item>@drawable/weather_mist_imo</item>
+    </array>
+
+    <string-array name="lucia_select_weather_string">
+        <item>カルルン</item>
+        <item>il_v</item>
+        <item>i_v</item>
+        <item>sam_v</item>
+        <item>sa_v</item>
+        <item>o_v</item>
+        <item>yuk_v</item>
+        <item>chil_v</item>
+        <item>pal_v</item>
+        <item>gu_v</item>
+        <item>ship_v</item>
+        <item>today_weather_v</item>
+        <item>tomorrow_weather_v</item>
+        <item>temp_hue_is_v</item>
+        <item>temp_hue_v</item>
+        <item>tem_hue_c_v</item>
+        <item>tem_hue_per_v</item>
+        <item>alarm_end_v</item>
+        <item>temp_hue_max_v</item>
+        <item>temp_hue_min_v</item>
+        <item>Thunderstorm</item>  <!-- -20  넣으면 0됨-->
+        <item>Drizzle</item>
+        <item>Rain</item>
+        <item>Snow</item>
+        <item>Clear</item>
+        <item>Clouds</item>
+        <item>Tornado</item>
+        <item>Mist</item>
+        <item>Smoke</item>
+        <item>Haze</item>
+        <item>Dust</item>
+        <item>Fog</item>
+        <item>Sand</item>
+        <item>Dust</item>
+        <item>Ash</item>
+        <item>Squall</item>
+        <item>영하</item>
+        <item>カルルン</item>
+    </string-array>
+
+
+    <array name="png_num_temp">
+        <item>@drawable/font_0_r</item>
+        <item>@drawable/font_1_r</item>
+        <item>@drawable/font_2_r</item>
+        <item>@drawable/font_3_r</item>
+        <item>@drawable/font_4_r</item>
+        <item>@drawable/font_5_r</item>
+        <item>@drawable/font_6_r</item>
+        <item>@drawable/font_7_r</item>
+        <item>@drawable/font_8_r</item>
+        <item>@drawable/font_9_r</item>
+    </array>
+
+    <array name="png_num_humi">
+        <item>@drawable/font_0_b</item>
+        <item>@drawable/font_1_b</item>
+        <item>@drawable/font_2_b</item>
+        <item>@drawable/font_3_b</item>
+        <item>@drawable/font_4_b</item>
+        <item>@drawable/font_5_b</item>
+        <item>@drawable/font_6_b</item>
+        <item>@drawable/font_7_b</item>
+        <item>@drawable/font_8_b</item>
+        <item>@drawable/font_9_b</item>
+    </array>
+
+
+    <string-array name="lucia_select_weather_background_string">
+        <item>Thunderstorm</item>  <!-- -20  넣으면 0됨-->
+        <item>カルルン</item>  <!-- -20  넣으면 0됨-->
+        <item>カルルン</item>  <!-- -20  넣으면 0됨-->
+        <item>カルルン</item>  <!-- -20  넣으면 0됨-->
+        <item>Drizzle</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>Rain</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>Snow</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>Clear</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>Clouds</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>カルルン</item>
+        <item>Tornado</item> <!-- 24번은 썬더스톰으로 처리 하도록. -->
+        <item>Mist</item> <!-- 25번 부터 -->
+        <item>Smoke</item>
+        <item>Haze</item>
+        <item>Dust</item>
+        <item>Fog</item>
+        <item>Sand</item>
+        <item>Dust</item>
+        <item>Ash</item>
+        <item>Squall</item> <!-- 33번 까진 흐림으로 처리하도록. -->
+    </string-array>
+
+    <array name="lucia_select_weather_background_video">
+        <item>@raw/thunderstorm_morning</item>
+        <item>@raw/thunderstorm_dinner</item>
+        <item>@raw/thunderstorm_night</item>
+        <item>@raw/thunderstorm_dawn</item>
+        <item>@raw/rainy_morning</item>
+        <item>@raw/rainy_dinner</item>
+        <item>@raw/rainy_night</item>
+        <item>@raw/rainy_dawn</item>
+        <item>@raw/rainy_morning</item>
+        <item>@raw/rainy_dinner</item>
+        <item>@raw/rainy_night</item>
+        <item>@raw/rainy_dawn</item>
+        <item>@raw/snowy_morning</item>
+        <item>@raw/snowy_dinner</item>
+        <item>@raw/snowy_night</item>
+        <item>@raw/snowy_dawn</item>
+        <item>@raw/clear_morning</item>
+        <item>@raw/clear_dinner</item>
+        <item>@raw/clear_night</item>
+        <item>@raw/clear_dawn</item>
+        <item>@raw/cloudy_morning</item>
+        <item>@raw/cloudy_dinner</item>
+        <item>@raw/cloudy_night</item>
+        <item>@raw/cloudy_dawn</item>
+    </array>
+
+
+
+</resources>

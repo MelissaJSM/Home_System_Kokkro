@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_reading"/>
+
+    <VideoView
+        android:id="@+id/background_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.alphamovie.lib.AlphaMovieView
+        android:id="@+id/alpha_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:alphaColor="#0201ff"
+        app:accuracy="0.5"/>
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/weather_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/today_tomorrow_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/today_weather" />
+
+            <ImageView
+                android:id="@+id/weather_imo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/weather_clear_imo" />
+
+            <LinearLayout
+                android:id="@+id/today_temp_humi_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/weather_temp_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/font_minus" />
+
+                <ImageView
+                    android:id="@+id/weather_temp_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_r" />
+
+                <ImageView
+                    android:id="@+id/weather_temp_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_r" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_c"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/weather_humi_10"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_b" />
+
+                <ImageView
+                    android:id="@+id/weather_humi_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_b" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_per"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout> <!-- 날씨 (기상 상황) -->
+
+        <LinearLayout
+            android:id="@+id/weather_max_min_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="right"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/today_weather_predicted" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/today_weather_max" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+
+                <ImageView
+                    android:id="@+id/weather_max_temp_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/font_minus" />
+
+                <ImageView
+                    android:id="@+id/weather_max_temp_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_r" />
+
+                <ImageView
+                    android:id="@+id/weather_max_temp_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_r" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_c"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/weather_max_humi_10"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_b" />
+
+                <ImageView
+                    android:id="@+id/weather_max_humi_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_b" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_per"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/today_weather_min" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/weather_min_temp_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/font_minus" />
+
+                <ImageView
+                    android:id="@+id/weather_min_temp_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_r" />
+
+                <ImageView
+                    android:id="@+id/weather_min_temp_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_r" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_c"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/weather_min_humi_10"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_b" />
+
+                <ImageView
+                    android:id="@+id/weather_min_humi_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_0_b" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/font_per"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout> <!-- 날씨 (최대 최소) -->
+
+        <LinearLayout
+            android:id="@+id/time_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="100dp">
+
+
+            <ImageView
+                android:id="@+id/num_10h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:id="@+id/num_1h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_colonm" />
+
+            <ImageView
+                android:id="@+id/num_10min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:id="@+id/num_1min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_colonm" />
+
+            <ImageView
+                android:id="@+id/num_10s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:id="@+id/num_1s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+
+        </LinearLayout><!-- 시간 레이아웃 -->
+
+        <LinearLayout
+            android:id="@+id/date_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="200dp">
+
+            <ImageView
+                android:id="@+id/num_1000y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:id="@+id/num_100y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:id="@+id/num_10y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:id="@+id/num_1y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_y" />
+
+            <ImageView
+                android:id="@+id/num_10m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:id="@+id/num_1m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_m" />
+
+            <ImageView
+                android:id="@+id/num_10d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:id="@+id/num_1d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_0" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/font_d" />
+        </LinearLayout> <!-- 날짜 레이아웃 -->
+
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp" /> <!-- 음성 수신강도 체크용 -->
+
+        <TextView 
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@+id/progressBar1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp" /> <!-- 디버깅용 -->
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/sleep_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+    </FrameLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
